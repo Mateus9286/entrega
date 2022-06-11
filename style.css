@@ -1,0 +1,101 @@
+*{@import url('https://fonts.googleapis.com/css2? family= Inter:wght@100;200;300;400;500;600;700 & display=swap');}
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+   
+    Height: 700px;
+    align-items: flex-start;
+    background-color: #000000;
+    margin: 0 auto; 
+    flex-direction: column
+    
+}
+.container .Logo {
+ height: 68px;
+width: 229px;
+align-items: center;
+margin-top: 32px;
+color: blue;
+justify-content: center;
+display: block;
+box-sizing: border-box;
+margin-left:450px;
+padding-left: 30px;
+
+}
+
+h2 {
+   color: white;
+   display: inline-block;
+   margin-left:450px;
+   width: 250px;
+   margin-top:70px ;
+   margin-bottom: 70px;
+}
+
+.Box {
+width: 160px;
+display: flex;
+justify-content: space-between;
+}
+
+li {
+  width: 700px;
+  display: flex;
+ justify-content: space-between;
+ align-items: center;
+ border-radius: 40px;
+ margin-left: 180px;
+}
+
+.box1 {
+  display: inline-block;
+  color: white;
+  margin-left: 240px;
+  width: 50px;
+  box-sizing: border-box;
+}
+ 
+.box2 {
+  display: inline-block;
+  color: white;
+  margin-left: 110px;
+  width: 90px;
+  box-sizing: border-box;
+}
+
+.box3 {
+  display: inline;
+  color: white;
+  margin-left: 40px;
+  width: 90px;
+  box-sizing: border-box;
+}
+form { display: flex;
+  margin-left: 460px;
+  margin-top: 50px;
+
+
+}
+
+button {
+  height: 50px;
+  width: 206px;
+  border-radius:  8px;
+  align-items: center;
+  border-color: white;
+  background-color: rgb(43, 43, 43);
+  color: white;
+}
+img {
+  border-radius: 10px;
+  margin-left: 15px;
+  
+}
+
+button:hover{
+   background-color: white;
+   color: black;
+}
+
